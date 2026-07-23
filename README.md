@@ -17,7 +17,13 @@ Experiment tracking, model registry, and metric versioning are fully integrated 
   <a href="#-key-highlights">Key Highlights</a> •
   <a href="#-Repository--Structure">Repository Structure</a> •
   <a href="#-Data-Pipeline">Data Pipeline</a> •
-  <a href="#-Feature-Engineering">Feature Engineering</a>
+  <a href="#-Feature-Engineering">Feature Engineering</a> •
+  <a href="#-Model-Evaluation">Model Evaluation</a> •
+  <a href="#-Getting-Started">Getting Started</a> •
+  <a href="#-Run-Training">Run-Training</a> •
+  <a href="#-Experiment-Tracking">Experiment Tracking</a> •
+  <a href="#-Technologies-Used">Technologies Used</a> •
+  <a href="#-Streamlit-App">Streamlit App</a>
 </p>
 
 ---
@@ -179,7 +185,7 @@ Target Classes:
 ## Clone Repository
 
 ```bash
-git clone https://dagshub.com/YOUR_USERNAME/survey-price-prediction.git
+git clone https://dagshub.com/survey-price-prediction/survey-price-prediction.git
 
 cd survey-price-prediction
 ```
@@ -235,10 +241,11 @@ All runs can be viewed inside your DagsHub repository under the **Experiments** 
 - MLflow
 - DagsHub
 - Jupyter Notebook
+- Streamlit
 
 ---
 
-# 🛠️ streamlit App
+# 🛠️ Streamlit App
 ![
 ](<Consumer Survey Price Range Prediction App.jpg>)
 
