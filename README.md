@@ -1,9 +1,37 @@
-# Consumer Survey Price Range Prediction
+<div align="center">
 
+# 🏷️ Consumer Price Sensitivity & Range Predictor
+### *Data-Driven Price Elasticity & Consumer Behavior Analytics for FMCG*
 This repository contains the complete Machine Learning workflow for analyzing consumer survey responses, cleaning data, engineering domain-specific features, and predicting price range preferences using multi-class classification models.
 
 Experiment tracking, model registry, and metric versioning are fully integrated using **MLflow** and hosted on **DagsHub**.
 
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-111111?style=for-the-badge)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![DagsHub](https://img.shields.io/badge/DagsHub-1A1F2C?style=for-the-badge)
+
+<p align="center">
+  <a href="#-key-highlights">Key Highlights</a> •
+  <a href="#-architecture--pipeline">Pipeline</a> •
+  <a href="#-model-benchmarks">Benchmarks</a> •
+  <a href="#-quick-start">Quick Start</a>
+</p>
+
+---
+
+</div>
+
+## ✨ Key Highlights
+
+* 🧹 **Automated Data Cleaning:** Cleans survey anomalies, imputes missing values, and standardizes categorical text across 30,000+ consumer records[cite: 1].
+* ⚙️ **Domain Feature Engineering:** Introduces custom interaction scores including **Zone Affluence Score (ZAS)**, **Consumption-Awareness Index (CF-AB)**, and **Brand Switching Indicators (BSI)**[cite: 2].
+* 📊 **Multi-Model Benchmark:** Compares Naive Bayes, Logistic Regression, SVM, Random Forest, and XGBoost to identify top predictive performance[cite: 3].
+* 📈 **MLflow & DagsHub Tracking:** Complete MLOps tracking for metrics (Accuracy, F1-Score, Precision), hyperparameters, and serialized model artifacts.
+* 🖥️ **Interactive Web Dashboard:** Includes a user-friendly **Streamlit** app for real-time price tier inference.
+* 
 ---
 
 # 📁 Repository Structure
