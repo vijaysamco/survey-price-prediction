@@ -15,23 +15,22 @@ Experiment tracking, model registry, and metric versioning are fully integrated 
 
 <p align="center">
   <a href="#-key-highlights">Key Highlights</a> •
-  <a href="#-architecture--pipeline">Pipeline</a> •
-  <a href="#-model-benchmarks">Benchmarks</a> •
-  <a href="#-quick-start">Quick Start</a>
+  <a href="#-Repository--Structure">Repository Structure</a> •
+  <a href="#-Data-Pipeline">Data Pipeline</a> •
+  <a href="#-Feature-Engineering">Feature Engineering</a>
 </p>
 
 ---
 
 </div>
 
-## ✨ Key Highlights
+# ✨ Key Highlights
 
 * 🧹 **Automated Data Cleaning:** Cleans survey anomalies, imputes missing values, and standardizes categorical text across 30,000+ consumer records[cite: 1].
 * ⚙️ **Domain Feature Engineering:** Introduces custom interaction scores including **Zone Affluence Score (ZAS)**, **Consumption-Awareness Index (CF-AB)**, and **Brand Switching Indicators (BSI)**[cite: 2].
 * 📊 **Multi-Model Benchmark:** Compares Naive Bayes, Logistic Regression, SVM, Random Forest, and XGBoost to identify top predictive performance[cite: 3].
 * 📈 **MLflow & DagsHub Tracking:** Complete MLOps tracking for metrics (Accuracy, F1-Score, Precision), hyperparameters, and serialized model artifacts.
 * 🖥️ **Interactive Web Dashboard:** Includes a user-friendly **Streamlit** app for real-time price tier inference.
-* 
 ---
 
 # 📁 Repository Structure
