@@ -211,6 +211,12 @@ All runs can be viewed inside your DagsHub repository under the **Experiments** 
 
 ---
 
+# 🛠️ streamlit App
+![
+](<Consumer Survey Price Range Prediction App.jpg>)
+
+---
+
 # 👨‍💻 Author
 
 **Vijay**
