@@ -1,0 +1,17 @@
+# Data Manipulation & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning Models & Utilities
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# MLOps & Experiment Tracking (DagsHub Integration)
+mlflow>=2.8.0
+dagshub>=0.3.0
+
+# Visualization & Notebook Support
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0
